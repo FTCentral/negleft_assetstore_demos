@@ -1,11 +1,11 @@
 {
     "demos": [
         {
-            "title": "Title 1",
-            "description": "A sample description",
-            "folder": "demos/somedemoname",
+            "title": "EZDraw",
+            "description": "Turns you 2D drawing into 3D mesh",
+            "folder": "demos/EZDraw",
             "thumbnail": "demos/somedemoname/thumbnail.png",
-            "version": "1.1",
+            "version": "1.0",
             "date": "January 2025"
         },
         {
