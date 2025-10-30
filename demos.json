@@ -4,15 +4,15 @@
             "title": "EZDraw",
             "description": "Turns you 2D drawing into 3D mesh",
             "folder": "demos/EZDraw",
-            "thumbnail": "demos/somedemoname/thumbnail.png",
+            "thumbnail": "demos/EZDraw/thumbnail.png",
             "version": "1.0",
             "date": "January 2025"
         },
         {
-            "title": "Title 2",
-            "description": "A sample description",
-            "folder": "demos/somedemoname",
-            "thumbnail": "demos/somedemoname/thumbnail.png",
+            "title": "Boat Ride",
+            "description": "A Endless runner but it's a boat.'",
+            "folder": "demos/BoatRide",
+            "thumbnail": "demos/BoatRide/thumbnail.png",
             "version": "2.1",
             "date": "February 2025"
         },

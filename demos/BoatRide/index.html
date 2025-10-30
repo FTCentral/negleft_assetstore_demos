@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>BoatRide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>BoatRide</h1>
+        </div>
+        
+        <div class="game-container">
+            <canvas id="unity-canvas"></canvas>
+        </div>
+        
+        <div id="loading-bar" class="loading-bar" style="display: block;">
+            <div id="loading-bar-fill" class="loading-bar-fill"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="fullscreen-button">Fullscreen</button>
+            <button id="embed-button">Get Embed Code</button>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 negleft | Version 0.1</p>
+        </div>
+    </div>
+    
+    <!-- Embed Modal -->
+    <div id="embed-modal" class="modal">
+        <div class="modal-content">
+            <h2>Embed Code</h2>
+            <p>Copy this code to embed the player on your website:</p>
+            <textarea id="embed-code" readonly></textarea>
+            <div class="modal-buttons">
+                <button class="copy-btn" onclick="copyEmbedCode()">Copy to Clipboard</button>
+                <button class="close-btn" onclick="closeEmbedModal()">Close</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Unity Build Config -->
+    <script>
+        var unityConfig = {
+            buildUrl: "Build",
+            loaderFilename: "BoatRide.loader.js",
+            dataFilename: "BoatRide.data",
+            frameworkFilename: "BoatRide.framework.js",
+            codeFilename: "BoatRide.wasm",
+            companyName: "negleft",
+            productName: "BoatRide",
+            productVersion: "0.1",
+            canvasWidth: 960,
+            canvasHeight: 600,
+            isEmbedPage: false
+        };
+    </script>
+    
+    <script src="template.js"></script>
+</body>
+</html>
+
