@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Maze_Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="embed-body">
+    <div class="embed-container">
+        <div class="game-container-embed">
+            <canvas id="unity-canvas"></canvas>
+        </div>
+        
+        <div id="loading-bar" class="loading-bar-embed" style="display: block;">
+            <div id="loading-bar-fill" class="loading-bar-fill"></div>
+        </div>
+        
+        <div class="embed-controls">
+            <button id="fullscreen-button">⛶ Fullscreen</button>
+        </div>
+    </div>
+    
+    <!-- Unity Build Config -->
+    <script>
+        var unityConfig = {
+            buildUrl: "Build",
+            loaderFilename: "MazeGenerator.loader.js",
+            dataFilename: "MazeGenerator.data",
+            frameworkFilename: "MazeGenerator.framework.js",
+            codeFilename: "MazeGenerator.wasm",
+            companyName: "negleft",
+            productName: "Maze_Generator",
+            productVersion: "0.1",
+            canvasWidth: 960,
+            canvasHeight: 600,
+            isEmbedPage: true
+        };
+    </script>
+    
+    <script src="template.js"></script>
+</body>
+</html>
+

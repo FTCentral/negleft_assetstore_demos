@@ -17,6 +17,14 @@
             "date": "February 2025"
         },
         {
+            "title": "Maze Generator",
+            "description": "DFS based 2D and 3D maze generator.",
+            "folder": "demos/MazeGenerator",
+            "thumbnail": "demos/MazeGenerator/thumbnail.png",
+            "version": "3.1",
+            "date": "March 2025"
+        },
+        {
             "title": "Title 3",
             "description": "A sample description",
             "folder": "demos/somedemoname",
