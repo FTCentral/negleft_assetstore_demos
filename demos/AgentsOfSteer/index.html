@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Agents of steer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Agents of steer</h1>
+        </div>
+        
+        <div class="game-container">
+            <canvas id="unity-canvas"></canvas>
+        </div>
+        
+        <div id="loading-bar" class="loading-bar" style="display: block;">
+            <div id="loading-bar-fill" class="loading-bar-fill"></div>
+        </div>
+        
+        <div class="controls">
+            <button id="fullscreen-button">Fullscreen</button>
+            <button id="embed-button">Get Embed Code</button>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2025 negleft | Version 1.5</p>
+        </div>
+    </div>
+    
+    <!-- Embed Modal -->
+    <div id="embed-modal" class="modal">
+        <div class="modal-content">
+            <h2>Embed Code</h2>
+            <p>Copy this code to embed the player on your website:</p>
+            <textarea id="embed-code" readonly></textarea>
+            <div class="modal-buttons">
+                <button class="copy-btn" onclick="copyEmbedCode()">Copy to Clipboard</button>
+                <button class="close-btn" onclick="closeEmbedModal()">Close</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Unity Build Config -->
+    <script>
+        var unityConfig = {
+            buildUrl: "Build",
+            loaderFilename: "AgentsOfSteer.loader.js",
+            dataFilename: "AgentsOfSteer.data",
+            frameworkFilename: "AgentsOfSteer.framework.js",
+            codeFilename: "AgentsOfSteer.wasm",
+            companyName: "negleft",
+            productName: "Agents of steer",
+            productVersion: "1.5",
+            canvasWidth: 960,
+            canvasHeight: 600,
+            isEmbedPage: false
+        };
+    </script>
+    
+    <script src="template.js"></script>
+</body>
+</html>
+
