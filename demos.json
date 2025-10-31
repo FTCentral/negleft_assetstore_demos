@@ -10,7 +10,7 @@
         },
         {
             "title": "Boat Ride",
-            "description": "A Endless runner but it's a boat.'",
+            "description": "An Endless runner but it's a boat.",
             "folder": "demos/BoatRide",
             "thumbnail": "demos/BoatRide/thumbnail.png",
             "version": "2.1",
@@ -21,16 +21,16 @@
             "description": "DFS based 2D and 3D maze generator.",
             "folder": "demos/MazeGenerator",
             "thumbnail": "demos/MazeGenerator/thumbnail.png",
-            "version": "3.1",
+            "version": "5.0",
             "date": "March 2025"
         },
         {
-            "title": "Title 3",
-            "description": "A sample description",
-            "folder": "demos/somedemoname",
-            "thumbnail": "demos/somedemoname/thumbnail.png",
-            "version": "3.1",
-            "date": "March 2025"
+            "title": "2D Seasons",
+            "description": "Day/Night Cycle with seasons",
+            "folder": "demos/2DSeasons",
+            "thumbnail": "demos/2DSeasons/thumbnail.png",
+            "version": "1.1",
+            "date": "May 2025"
         }
     ]
 }
